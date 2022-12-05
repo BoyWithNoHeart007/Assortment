@@ -4,27 +4,25 @@ main(){
 	
     int a[1000],i,n;
    
-    printf("Enter size of the array : ");
-    scanf("%d", &n);
+    printf("Enter size :- ");
+    scanf("%i", &n);
  
-    printf("Enter elements in array :\n ");
-    for(i=0; i<n; i++){
+    printf("Enter element :- \n ");
+    
+	for(i=0; i<n; i++){
     	
-        scanf("%d", &a[i]);
+        scanf("%i", &a[i]);
     
 	}
  
-    printf("\nAll negative elements in array are : ");
+    printf("All negative element :- ");
     
 	for(i=0; i<n; i++){
          
-        if(a[i] < 0){
+        if(a[i]<0){
         	
-            printf("%d\t", a[i]);
+            printf("%i\t", a[i]);
         
-		}
-    
 	}
- 
-
+    }
 }
