@@ -19,7 +19,7 @@ main(){
     
 	for(i=0; i<n; i++){
          
-        if(a[i]%2){
+        if(a[i]%2 == 0){
         	
             printf("%i\n", a[i]);
         	
